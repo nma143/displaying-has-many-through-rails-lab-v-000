@@ -2,7 +2,7 @@ class AppointmentsController < ApplicationController
 
   def show
     @appointment = Appointment.find(params[:id])
-    binding.pry
+    # binding.pry
   end
 
 end
